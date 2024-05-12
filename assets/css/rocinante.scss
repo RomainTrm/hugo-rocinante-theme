@@ -19,6 +19,12 @@ div.content {
   text-align: justify;
 }
 
+p:has(> video, img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 em, i {
   font-style: italic;
 }
